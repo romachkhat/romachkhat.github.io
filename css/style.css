@@ -30,7 +30,7 @@
 
 .main_section {
 	display: flex;
-	width: 95vw;
+	width: 95%;
 	flex-direction: column;
 	justify-content: flex-start;
 	margin: auto;
@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 600px) {
 	.main_section {
-		width: 100vw;
+		width: 100%;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
