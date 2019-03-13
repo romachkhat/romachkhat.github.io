@@ -1,10 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Passion+One|Roboto');
 
-body {
-	width: 100vw;
-}
-
 .header, .footer {
 	height: 70px;
 	background-color: orange;
@@ -14,7 +10,7 @@ body {
 	line-height: 70px;
 	color: #f9f9f9;
 	font-family: 'Passion One', sans-serif;
-	width: 100vw;
+	width: 100%;
 	font-size: 30px;
 	padding-left: 2.5vw;
 	/*height: 70px;*/
