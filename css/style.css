@@ -1,6 +1,10 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Passion+One|Roboto');
 
+body {
+	width: 100vw;
+}
+
 .header, .footer {
 	height: 70px;
 	background-color: orange;
