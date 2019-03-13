@@ -13,6 +13,7 @@
 	width: 100%;
 	font-size: 30px;
 	padding-left: 2.5vw;
+	box-sizing: border-box;
 	/*height: 70px;*/
 }
 
