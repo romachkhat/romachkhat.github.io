@@ -29,6 +29,10 @@
 	padding-left: 2.5vw;
 }
 
+main {
+	width: 100%;
+}
+
 .main_section {
 	display: flex;
 	width: 95%;
@@ -36,6 +40,7 @@
 	justify-content: flex-start;
 	margin: auto;
 	align-items: center;
+	box-sizing: border-box;
 }
 
 .article {
