@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Roboto');
+
+.header, .footer {
+	height: 70px;
+	background-color: orange;
+}
+
+.header_container {
+	line-height: 70px;
+	color: #f9f9f9;
+	font-family: 'Passion One', sans-serif;
+	width: 100vw;
+	font-size: 30px;
+	padding-left: 2.5vw;
+	/*height: 70px;*/
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.footer span {
+	line-height: 70px;
+	color: #f9f9f9;
+	font-family: 'Passion One', sans-serif;
+	font-size: 30px;
+	padding-left: 2.5vw;
+}
+
+.main_section {
+	display: flex;
+	width: 95vw;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: auto;
+	align-items: center;
+}
+
+.article {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px grey;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.article h2 {
+	font-weight: bold;
+}
+
+.article p, .article h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+
+}
+
+@media screen and (min-width: 600px) {
+	.main_section {
+		width: 100vw;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 20% auto;
+		align-items: center;
+	}
+
+	.article {
+		width: 45%;
+		margin: 10px;
+	}
+}
